@@ -9,11 +9,11 @@ A simple tool to monitor the magnificent web service which will log the response
 Built with Java 17.0.1
 
 ### Dependencies and build management tool
-Executing the tests requires mockito.
+Executing the tests requires mockito. <br />
 The project was setup with maven.
 
 ### Executing program
-java -jar MonitoringTool.jar URL TESTINGINTERVAL TIMEOUT PATH/TO/TARGETFOLDER/
+java -jar MonitoringTool.jar URL TESTINGINTERVAL TIMEOUT PATH/TO/TARGETFOLDER/ <br />
 java -jar MonitoringTool.jar help to show the parameters required by the tool
 
 
