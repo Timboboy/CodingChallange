@@ -8,7 +8,7 @@ public class HttpConnectionHandler {
     private HttpURLConnection connection = null;
     private BufferedReader reader = null;
     private final URL url;
-
+    
     public String connect() {
         try {
             connection = (HttpURLConnection)url.openConnection();
