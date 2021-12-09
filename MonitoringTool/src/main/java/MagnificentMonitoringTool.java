@@ -15,6 +15,7 @@ public class MagnificentMonitoringTool {
                 return;
             }
 
+            /* I could have used a properties file to configure the logger, but I decided against since I wanted to accept the log file path as parameter*/
             var logger = Logger.getLogger("MagnificentMonitoringTool");
             var formatter = DateTimeFormatter.ofPattern("yyy-MM-dd-HH-mm-ss");
             fileHandler = new FileHandler(args[3] + formatter.format(LocalDateTime.now()) + "_logfile.log");
