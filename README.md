@@ -9,7 +9,7 @@ A simple tool to monitor the magnificent web service which will log the response
 Built with Java 17.0.1
 
 ### Dependencies and build management tool
-Executing the tests requires mockito. <br />
+Executing the tests requires mockito and testng. <br />
 The project was setup with maven.
 
 ### Executing program
