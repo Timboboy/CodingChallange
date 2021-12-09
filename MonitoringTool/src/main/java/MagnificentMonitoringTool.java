@@ -13,7 +13,7 @@ public class MagnificentMonitoringTool {
 
         try {
             LogManager.getLogManager().readConfiguration(new FileInputStream(args[3]));
-            var logger = Logger.getLogger(MagnificentMonitoringTool.class.getName());
+            var logger = Logger.getLogger("MagnificentMonitoringTool");
             var tester = new ConnectionTester(new URL(args[0]), Integer.parseInt(args[1]), Integer.parseInt(args[2]), logger);
 
             while (true) {
